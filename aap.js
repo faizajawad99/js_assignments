@@ -166,12 +166,166 @@
 
 // CHAPTER 6 - 9
 //1:
-var num = +prompt("Enter a Number" , "Number of your choice")
-document.write("RESULT" + "<br>" );
-document.write("The Value of a is : " + num + "<br>" );
+// var num = +prompt("Enter a Number" , "Number of your choice")
+// var b = ++num
+// var c = b++
+// var d = --c
+// var e = d--
+// document.write("RESULT" + "<br>" );
+// document.write("The value of a is : " + num + "<br>");
+// document.write("------------------------" + "<br>");
+// document.write("The Value of ++a is : " + b + "<br>" );
+// document.write("The value of  a is : " + b + "<br>");
+// document.write("The Value of a++ is : " + c + "<br>" );
+// document.write("The value of  a is : " + c + "<br>");
+// document.write("The Value of --a is : " + d + "<br>" );
+// document.write("The value of  a is : " + d + "<br>");
+// document.write("The Value of a-- is : " + e + "<br>" );
+// document.write("The value of  a is : " + e + "<br>");
+//2:
+
+// //3:
+// var Greetings = prompt("Please enter your name" , "Your name")
+// alert("Hello " + Greetings + " Welcome to Our Website" )
+// //5:
+// var num = +prompt("Please enter a number,Your number")
+// if(num = int);{
+//     document.write();
+// }
+// else{
+// }
+//6:
+// var sub1 = prompt("Please enter your first subject","Subject no 1")
+// var sub2 = prompt("Please enter your second subject","Subject no 2")
+// var sub3 = prompt("Please enter your third subject","Subject no 3")
+
+//CHAPTER 9-10
+// //1:
+// var cityName = prompt("Enter city name" , "City Name")
+// if(cityName == "karachi");{
+//     document.write("Welcome to the City Of Lights");
+// }
+//2:
+// var gender = prompt("Please enter your gender" , "Your Gender")
+// if(gender == "male"){
+//     document.write("Good Morning Sir")
+// }
+// else{
+//     document.write("Good Morning Mam")
+// }
+//3:
+// var lightColor = prompt("Enter Color of your Traffic Light" , "Color")
+// if(lightColor == "red");{
+//     document.write("MUST STOP");
+// }
+// else if(lightColor == "yellow");{
+//     document.write("READY TO MOVE");
+// }
+// else if(lightColor == "greem");{
+//     document.write("MOVE NOW");
+// }
+//4:
+// var currentFuel = +prompt("ENter the fuel of your car in liters " , "Fuel in numbers")
+// if(currentFuel >= 0.25){
+//     document.write("You Have enough fuel enjoy")
+// }   
+// else if(currentFuel < 2.5);{
+//     document.write("Please refil the fuel in your car")
+// }
+//6:
+// var totalMaks = +prompt("Enter total Marks" , "Total Marks")
+// var percentage = (totalMaks/300) * 100
+// document.write("MARK SHEET" + "<br>");
+// document.write("TOTAL MARKS : 300" + "<br>");
+// document.write("ONTAINED MARKS : " + totalMaks + "<br>");
+// document.write("PERCENTAGE : " + percentage + "<br>");
+// if(percentage >= 80){
+//     document.write("GRADE : A-one" + "<br>");
+//     document.write("REMARKS : Excellent" + "<br>");
+// }
+// elif(percentage >= 70);{
+//     document.write("GRADE : A" + "<br>");
+//     document.write("REMARKS : Good" + "<br>");
+// }
+// elif(percentage >= 60);{
+//     document.write("GRADE : B" + "<br>");
+//     document.write("REMARKS : You need to improve" + "<br>");
+// }
+// elif (percentage < 60);{
+//     document.write("GRADE : Fail" + "<br>");
+//     document.write("REMARKS : Fail" + "<br>");
+// }
+//7:
+// var randomNum = console.log(Math.round(Math.random() * 10))
+// var userGuess = +prompt("Enter A Random Number" , "Your guess here")
+// if(randomNum = userGuess);{
+//     document.write("Bingo!Correct Answer")
+// }
+// elif(randomNum = userGuess + 1){
+//     document.write("Close Enough to the Correct Answer")
+// }
+//8:
+// var number = +prompt("enter a anumber" , "Your Number")
+// var ans = number % 3
+// if(ans == 0){
+//     document.write("The number you have entered is divisible by 3")
+// }
+// else{
+//     document.write("The number you have entered is not divisible by 3")
+// }
+//9:
+// var inputNumber = +prompt("Enter number you want to be checked" , "Your Number here")
+// if(inputNumber % 2 == 0){
+//     document.write("Entered number is even")
+// }
+// else{
+//     document.write("Entered number is odd")
+// }
+//10:
+// var temp = +prompt("Please Enter Temprature" , "Temprature here")
+// if(temp > 40){
+//     document.write("It is too hot outside")
+// }   
+// else if(temp > 30){
+//     document.write("The wheather today is normal")
+// }
+// else if(temp > 20){
+//     document.write("Todays weather is cool")
+// }
+// else if(temp > 10){
+//     document.write("OMG!!! The weather today is so cold")
+// }
+// else{
+//     document.write("please enter a valid value for tempratue")
+// }
+//11:
+// var firstNumber = +prompt("Enter first number" , "First number") 
+// var secondNumber = +prompt("Enter second number" , "Second Number")
+// var operation = prompt("Enter the operation you want it to perform i.e + , - , * , /" , "Enter operation")
+// var add = firstNumber + secondNumber 
+// var subb = firstNumber - secondNumber
+// var multi = firstNumber * secondNumber
+// var div = firstNumber / secondNumber
+// if(operation == "+"){
+//     document.write(firstNumber + " + " + secondNumber + " = " + add)
+// }
+// else if(operation == "-"){
+//     document.write(firstNumber + " - " + secondNumber + " = " + subb)
+// }
+// else if(operation == "*"){
+//     document.write(firstNumber + " * " + secondNumber + " = " + multi)
+// }
+// else if(operation == "/"){
+//     document.write(firstNumber + " / " + secondNumber + " = " + div)
+// }
+// else{
+//     document.write("Please enter a valid operation")
+// }
+//   CHAPTER 12-13
+//1
 
 
-
+//2:
 
 
 

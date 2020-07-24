@@ -326,6 +326,267 @@
 
 
 //2:
+// var a = +prompt("Input first integer" , "first integer")
+// var b = +prompt("Input second Iteger" , "Second integer")
+// if(a > b){
+//     document.write("a is greater than b ")
+// }
+// else if(a < b){
+//     document.write("a is less than b")
+// }
+// else if(a == b){
+//     document.write("a is equal to b")
+// }
+// else{
+//     document.write("Please input valid integers")
+// }
+//3:
+// var num = +prompt("Please input an integer" , "Yor integer")
+// if(num == String){
+//     document.write("Ypur input number is string")
+// }
+// else if(num == int){
+//     if(num == -int){
+//         document.write("You have input negative integer")
+//     }
+// }
+       //IMCOMP
+//4
+// var alpha = prompt("Please enter an alphabet to be checked" , "Enter alphabet")
+// if( alpha == "a" , "e" , "i" , "o" , "u"){
+//        document.write("The alphabet you entered is a vovel")
+// }
+// else{
+//        document.write("Entered value is not a vovel")
+// }
+//5:
+// var pass1 = prompt("Enter your password" , "Password")
+// var pass2 = prompt("Confirm your password" , "Re-enter password")
+// if(pass1 == pass2){
+//        document.write("Correct!!")
+// }
+// else{
+//        document.write("Incorrect Password")
+// }
+//6:
+// var greeting; 
+// var hour = 13; 
+// if (hour < 18) { 
+//        document.write("Good Day") 
+// }
+// else {
+//        document.write("Good Evening") 
+// }
+// 7:
+
+
+//                   CHAPTER 14-16
+//1:
+// var testAray = [];
+// testAray.push("testvakue");
+// console.log(testAray)
+//2:
+// var studentNames = [];
+// var values =  +prompt("Enter student's name" , "Enter Your Name")
+// studentNames.push(values);
+// document.write("Student's Name = " + values[0]);
+//3:
+// var stringsArray = [];
+// stringsArray.push("string1");
+// console.log(stringsArray);
+//4:
+// var stringsArray = [];
+// stringsArray.push(+123);
+// console.log(stringsArray);
+//7:
+// var qualifcations = ["SSC" , "HSC" , "BSC" , "BS" , "BCOM" , "MS" , "M.Phil" , "PhD"];
+// document.write("QUALIFICATIONS:" + "<br>");
+// document.write("1. " + qualifcations[0] + "<br>");
+// document.write("2. " + qualifcations[1] + "<br>");
+// document.write("3. " + qualifcations[2] + "<br>");
+// document.write("4. " + qualifcations[3] + "<br>");
+// document.write("5. " + qualifcations[4] + "<br>");
+// document.write("6. " + qualifcations[5] + "<br>");
+// document.write("7. " + qualifcations[6] + "<br>");
+// document.write("8. " + qualifcations[7] + "<br>");
+// 8:
+// var studentName = ["Micheal" , "John" , "Tony"];
+// var studentScore = ["320" , "230" , "480"];
+// var percentage = ["64%" , "46%" , "96%"];
+// document.write("Score of " + studentName[0] + " is " + studentScore[0] + ".Percentage" + percentage[0] + "<br>");
+// document.write("Score of " + studentName[1] + " is " + studentScore[1] + ".Percentage" + percentage[1] + "<br>");
+// document.write("Score of " + studentName[2] + " is " + studentScore[2] + ".Percentage" + percentage[2] + "<br>");
+// 9:
+// var colorNames = ["Red" , "Yellow"];
+// // document.write(colorNames[0]);
+// // document.write(colorNames[1]);
+// //a
+// var firstColor = prompt("Enter first color" , "Fisrt color")
+// colorNames.unshift(firstColor);
+// //document.write(colorNames);
+// //b:
+// var endAdd1 = prompt("Enter color you want to add in the end" , "First Color")
+// colorNames.push(endAdd1);
+// //document.write(colorNames);
+// //c:
+// var add1 = prompt("Enter first color" , "Fisrt color")
+// var add2 = prompt("Enter second color" , "Second color")
+// colorNames.unshift(add1 ,add2);
+// document.write(colorNames);
+//d:
+// prompt("Click ok to delete last color of the array")
+// colorNames.pop();
+
+//10:
+// var studentScore = [];
+// var score1 = +prompt("Enter score of first player")
+// var score2 = +prompt("Enter score of second player")
+// var score3 = +prompt("Enter score of third player")
+// var score4 = +prompt("Enter score of fourth player")
+// studentScore.unshift(score1 , score2 , score3 , score4);
+// document.write("Scores of Students : " + "(" + studentScore + ")" + "<br>");
+// var ascendinSort = studentScore;
+// ascendinSort.sort(function(a , b){return(a-b)});
+// document.write("Scores arranged in ascending order : " + "(" + ascendinSort + ")" + "<br>");
+//  var descendingSort = studentScore;
+//  descendingSort.sort(function(a , b){return(b - a)});
+// document.write("Scores arranged in desending order : " + "(" + descendingSort + ")");
+//11:
+// var cityNames = [];
+// var selectedCities = cityNames(0,2);
+// var city1 = prompt("Enter city number 1")
+// var city2 = prompt("Enter city number 2")
+// var city3 = prompt("Enter city number 3")
+// cityNames.unshift(city1 , city2 , city3);
+// document.write("Cities list : " + cityNames + "<br>");
+// document.write("Selected cities : " + selectedCities);
+//12:
+// var arrayJoin = []
+// var char1 = prompt("Enter first element of your array");
+// var char2 = prompt("Enter second element of your array");
+// var char3 = prompt("Enter third element of your array");
+// var char4 = prompt("Enter fourth element of your array");
+// arrayJoin.unshift(char1 , char2 , char3 , char4);
+// var joinedArray = arrayJoin.join();
+// document.write(joinedArray);
+// 13:
+// var exampleArray = [];
+// var arrayElement1 = prompt("Enter first element of array")
+// var arrayElement2 = prompt("Enter second element of array")
+// var arrayElement3 = prompt("Enter third element of array")
+// var arrayElement4 = prompt("Enter fourth element of array")
+// var arrayElement5 = prompt("Enter fifth element of array")
+// exampleArray.push(arrayElement1 , arrayElement2 , arrayElement3 , arrayElement4 , arrayElement5);
+// document.write("Input array = " + exampleArray + "<br>");
+//15:
+// var modelArray = ["Apple" , "Samsung" , "Motorrola" , "Nokia" , "Soney" , "Haier"]
+// document.write(modelArray[0] , "<BR>");
+// document.write(modelArray[1] , "<BR>");
+// document.write(modelArray[2] , "<BR>");
+// document.write(modelArray[3] , "<BR>");
+// document.write(modelArray[4] , "<BR>");
+// document.write(modelArray[5] , "<BR>");
+
+//         CHAPTER 17 - 20
+//1:
+//var initializeArray = [[] , []]
+//2:
+// var matrixArray = [["0" , "1" , "2" , "3"] , ["1" , "0" , "1" , "2"] , ["2" , "1" , "0" , "1"]]
+// document.write(matrixArray[0] + "<BR>");
+// document.write(matrixArray[1] + "<BR>");
+// document.write(matrixArray[2]);
+//3:
+// for(var i = 1; i < 11; i += 1) {
+//        document.write(i + "<BR>");
+// }
+//4:
+// var myVar = prompt("Enter the nnumebr ", "");
+// var length = prompt("Length of the table");
+//      var myString = "";
+//      for (i=1; i<=length; i++) {
+//        myString += i+ " x " +myVar+ " = " +(i*myVar)+ "\n";
+//      }
+//      alert(myString);
+//5:
+// var fruits = ["apple" , "banana" , "mango" , "orange" , "strawberry"]
+// var i;
+// for (i = 0; i < fruits.length; i++) {
+//   fruits[i] + "<br>";
+// }
+//                   CHAPTER 21 - 25
+//1:
+// var firstName = prompt("Enter First Name" , "");
+// var secondName = prompt("Enter Second Name" , "");
+// var fullName = document.write(firstName + secondName);
+// 2:
+// var favPhone = prompt("Enter your fav phone" , "");
+// document.write("My Fav Phone is : " + favPhone + "<BR>"); 
+// document.write("Length of string : " + favPhone.length);
+// 3:
+// var letterCount = "Pakistan";
+// let count = 0;
+// let pos = letterCount.indexOf("n");
+// while(pos !== -1){
+//        count++;
+//        pos = letterCount.indexOf("n" , pos + 1)
+// }
+// document.write(count);
+// 4:
+// var indCount = "Hello World";
+// let count = 0;
+// let pos = indCount.indexOf("l");
+// while(pos !== -1){
+//        count++;
+//        pos = indCount.indexOf("l" , pos + 1)
+// }
+// document.write(count);
+// 7:
+// var city1 = "hyder"
+// var city2 = "abad"
+// var city3 = "islam"
+// document.write("City:       " + city1 + city2 + "<BR>");
+// document.write("After replacement :       " + city3 + city2);
+// 8:
+// var message = "Ali and Sami are best friends. They play cricket and football together."
+// var rep = message.replace("and" , "&");
+// document.write("Original message : " + message + "<BR>");
+// document.write("Replacing and with & : " + rep);
+// 9:
+// var string = prompt("Enter string that you want to convert into integer" , "")
+// var chnageType = parseInt(string)
+// document.write("Value : " + string + "<BR>");
+// document.write("Type : " + typeof(string) + "<BR>");
+// document.write("Value : " + chnageType + "<BR>");
+// document.write("Type : " + typeof(chnageType));
+// 10:
+// var inputString = prompt("Input string to conver into uppercase" , "")
+// document.write("Lower Case : " + inputString.toLowerCase() + "<BR>");
+// document.write("Upper Case : " + inputString.toUpperCase())
+//11:
+// var str = prompt("Enter string" , "")
+// document.write(
+// str.split(' ')
+//    .map(w => w[0].toUpperCase() + w.substr(1).toLowerCase())
+//    .join(' ')
+
+// )
+// 12:
+// var youNum = +prompt("enter number to convert into string" , "");
+// var converted = youNum.toFixed();
+// var final = converted.toString();
+// document.write("Number : " + youNum + "<BR>");
+// document.write("Result : " + final);
+// 13:
+// var userInput = prompt("Enter a suitable username" , "");
+
+
+//                   CHAPTER 26 - 30
+//1:
+
+
+
+
+
 
 
 
